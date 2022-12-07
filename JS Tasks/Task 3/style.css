@@ -58,4 +58,34 @@
   padding: 30px;
   border-radius: 5px;
   background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.user-card {
+  background-color: #222;
+  max-width: 200px;
+  max-height: 300px;
+  margin: 10px;
+  transition: all .2s ease-in-out;
+}
+
+.user-card:hover {
+  border: 6px solid #474747;
+  transform: scale(1.2);
+}
+
+.login-div {
+  color: #fff;
+  margin: 10px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
 }
