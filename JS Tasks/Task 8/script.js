@@ -24,6 +24,7 @@ function Calculator(a, b) {
 }
 
 const letsCalculate = new Calculator(2, 2);
+
 letsCalculate.sum(); //4
 letsCalculate.subtraction(); //0
 letsCalculate.multiplication(); //4

@@ -32,4 +32,4 @@ function getUsersNames(users) {
   return arrOfuserNames;
 }
 
-getUsersNames(users);
+getUsersNames(users); //Array (9)[ John Smith, Ann Smith, Tom Jones, Rose Peterson, Alex John, Ronald Jones, Elton Smith, Simon Peterson, Daniel Cane ]

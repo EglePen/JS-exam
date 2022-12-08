@@ -30,7 +30,6 @@ async function getData() {
 
 function renderData(users) {
     const message = document.querySelector('p').style.display = 'none';
-    console.log(users);
     users.forEach(user => {
         displayUsers.innerHTML +=
             `<div class='user-card'>
