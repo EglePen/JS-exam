@@ -19,3 +19,17 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30, hasDog: false },
   { id: '9', name: 'Daniel Cane', age: 51, hasDog: true },
 ];
+
+function filterDogOwners(users) {
+  const ownsDog = users.filter(user => user.hasDog).map(user => user.name);
+  return ownsDog;
+};
+
+console.log(filterDogOwners(users)); //Array (6)[ John Smith, Tom Jones, Alex John, Ronald Jones, Elton Smith, Daniel Cane ]
+
+function filterAdults() {
+  const adults = users.filter(user => user.age >= 18).map(user => user.name);
+  return adults;
+};
+
+console.log(filterAdults(users)); //Array (7)[ John Smith, Ann Smith, Tom Jones, Alex John, Ronald Jones, Simon Peterson, Daniel Cane ]
